@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 802px;
+  font-size: 0;
+  height: 802px;
+  border: 1px solid red;
+}
+.cell {
+  position: relative;
+  display: inline-block;
+  background: #000;
+  width: 100px;
+  height: 100px;
+}
+
+.cell:nth-child(-2n+8),
+.cell:nth-child(8) ~ .cell:nth-child(-2n+15),
+.cell:nth-child(16) ~ .cell:nth-child(-2n+24),
+.cell:nth-child(24) ~ .cell:nth-child(-2n+31),
+.cell:nth-child(32) ~ .cell:nth-child(-2n+40),
+.cell:nth-child(40) ~ .cell:nth-child(-2n+47),
+.cell:nth-child(48) ~ .cell:nth-child(-2n+56),
+.cell:nth-child(56) ~ .cell:nth-child(-2n+63) {
+  background: #fff;
+}
+.item-red {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ff2525;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+}
+.item-blue {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #0038c7;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+}
+.inside {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #282828;
+}
