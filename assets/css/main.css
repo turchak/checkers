@@ -45,8 +45,8 @@ body {
 }
 
 .item-first-team {
-  width: 5vh;
-  height: 5vh;
+  width: 5%;
+  height: 5%;
   border: 1vh solid #fff;
   border-radius: 50%;
   background: #ff2525;
@@ -54,8 +54,8 @@ body {
 }
 
 .item-second-team {
-  width: 5vh;
-  height: 5vh;
+  width: 5%;
+  height: 5%;
   border: 1vh solid #fff;
   border-radius: 50%;
   background: #636eff;
@@ -64,144 +64,144 @@ body {
 
 .item-first-team:nth-child(1) {
   position: absolute;
-  top: calc(6.5% - 2.5vh);
-  left: calc(6.5% - 2.5vh);
+  top: calc(6.5% - 2.5%);
+  left: calc(6.5% - 2.5%);
 }
 
 .item-first-team:nth-child(2) {
   position: absolute;
-  top: calc(6.5% - 2.5vh);
-  left: calc(31.5% - 2.5vh);
+  top: calc(6.5% - 2.5%);
+  left: calc(31.5% - 2.5%);
 }
 
 .item-first-team:nth-child(3) {
   position: absolute;
-  top: calc(6.5% - 2.5vh);
-  left: calc(56.5% - 2.5vh);
+  top: calc(6.5% - 2.5%);
+  left: calc(56.5% - 2.5%);
 }
 
 .item-first-team:nth-child(4) {
   position: absolute;
-  top: calc(6.5% - 2.5vh);
-  left: calc(81.5% - 2.5vh);
+  top: calc(6.5% - 2.5%);
+  left: calc(81.5% - 2.5%);
 }
 
 .item-first-team:nth-child(5) {
   position: absolute;
-  top: calc(19% - 2.5vh);
-  left: calc(19% - 2.5vh);
+  top: calc(19% - 2.5%);
+  left: calc(19% - 2.5%);
 }
 
 .item-first-team:nth-child(6) {
   position: absolute;
-  top: calc(19% - 2.5vh);
-  left: calc(44% - 2.5vh);
+  top: calc(19% - 2.5%);
+  left: calc(44% - 2.5%);
 }
 
 .item-first-team:nth-child(7) {
   position: absolute;
-  top: calc(19% - 2.5vh);
-  left: calc(69% - 2.5vh);
+  top: calc(19% - 2.5%);
+  left: calc(69% - 2.5%);
 }
 
 .item-first-team:nth-child(8) {
   position: absolute;
-  top: calc(19% - 2.5vh);
-  left: calc(94% - 2.5vh);
+  top: calc(19% - 2.5%);
+  left: calc(94% - 2.5%);
 }
 
 .item-first-team:nth-child(9) {
   position: absolute;
-  top: calc(31.5% - 2.5vh);
-  left: calc(6.5% - 2.5vh);
+  top: calc(31.5% - 2.5%);
+  left: calc(6.5% - 2.5%);
 }
 
 .item-first-team:nth-child(10) {
   position: absolute;
-  top: calc(31.5% - 2.5vh);
-  left: calc(31.5% - 2.5vh);
+  top: calc(31.5% - 2.5%);
+  left: calc(31.5% - 2.5%);
 }
 
 .item-first-team:nth-child(11) {
   position: absolute;
-  top: calc(31.5% - 2.5vh);
-  left: calc(56.5% - 2.5vh);
+  top: calc(31.5% - 2.5%);
+  left: calc(56.5% - 2.5%);
 }
 
 .item-first-team:nth-child(12) {
   position: absolute;
-  top: calc(31.5% - 2.5vh);
-  left: calc(81.5% - 2.5vh);
+  top: calc(31.5% - 2.5%);
+  left: calc(81.5% - 2.5%);
 }
 
 .item-second-team:nth-child(1) {
   position: absolute;
-  bottom: calc(31.5% - 2.5vh);
-  left: calc(19% - 2.5vh);
+  bottom: calc(31.5% - 2.5%);
+  left: calc(19% - 2.5%);
 }
 
 .item-second-team:nth-child(2) {
   position: absolute;
-  bottom: calc(31.5% - 2.5vh);
-  left: calc(44% - 2.5vh);
+  bottom: calc(31.5% - 2.5%);
+  left: calc(44% - 2.5%);
 }
 
 .item-second-team:nth-child(3) {
   position: absolute;
-  bottom: calc(31.5% - 2.5vh);
-  left: calc(69% - 2.5vh);
+  bottom: calc(31.5% - 2.5%);
+  left: calc(69% - 2.5%);
 }
 
 .item-second-team:nth-child(4) {
   position: absolute;
-  bottom: calc(31.5% - 2.5vh);
-  left: calc(94% - 2.5vh);
+  bottom: calc(31.5% - 2.5%);
+  left: calc(94% - 2.5%);
 }
 
 .item-second-team:nth-child(5) {
   position: absolute;
-  bottom: calc(19% - 2.5vh);
-  left: calc(6.5% - 2.5vh);
+  bottom: calc(19% - 2.5%);
+  left: calc(6.5% - 2.5%);
 }
 
 .item-second-team:nth-child(6) {
   position: absolute;
-  bottom: calc(19% - 2.5vh);
-  left: calc(31.5% - 2.5vh);
+  bottom: calc(19% - 2.5%);
+  left: calc(31.5% - 2.5%);
 }
 
 .item-second-team:nth-child(7) {
   position: absolute;
-  bottom: calc(19% - 2.5vh);
-  left: calc(56.5% - 2.5vh);
+  bottom: calc(19% - 2.5%);
+  left: calc(56.5% - 2.5%);
 }
 
 .item-second-team:nth-child(8) {
   position: absolute;
-  bottom: calc(19% - 2.5vh);
-  left: calc(81.5% - 2.5vh);
+  bottom: calc(19% - 2.5%);
+  left: calc(81.5% - 2.5%);
 }
 
 .item-second-team:nth-child(9) {
   position: absolute;
-  bottom: calc(6.5% - 2.5vh);
-  left: calc(19% - 2.5vh);
+  bottom: calc(6.5% - 2.5%);
+  left: calc(19% - 2.5%);
 }
 
 .item-second-team:nth-child(10) {
   position: absolute;
-  bottom: calc(6.5% - 2.5vh);
-  left: calc(44% - 2.5vh);
+  bottom: calc(6.5% - 2.5%);
+  left: calc(44% - 2.5%);
 }
 
 .item-second-team:nth-child(11) {
   position: absolute;
-  bottom: calc(6.5% - 2.5vh);
-  left: calc(69% - 2.5vh);
+  bottom: calc(6.5% - 2.5%);
+  left: calc(69% - 2.5%);
 }
 
 .item-second-team:nth-child(12) {
   position: absolute;
-  bottom: calc(6.5% - 2.5vh);
-  left: calc(94% - 2.5vh);
+  bottom: calc(6.5% - 2.5%);
+  left: calc(94% - 2.5%);
 }
