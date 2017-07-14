@@ -1,18 +1,19 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   padding: 0;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 100vh;
 }
-.container {
-  /*border: 2px solid black;*/
 
+.container {
   position: relative;
   height: 0;
   padding-bottom: 100%;
 }
+
 .content {
   position: absolute;
   top: 0;
@@ -20,7 +21,6 @@ body {
   width: 100%;
   height: 100%;
   font-size: 0;
-
 }
 
 .cell {
@@ -31,168 +31,177 @@ body {
   height: 100%;
   z-index: 1;
 }
+
 .row {
   display: inline-block;
   font-size: 0;
   width: 100%;
   height: 12.5%;
 }
-.row:nth-child(odd) .cell:nth-child(even), .row:nth-child(even) .cell:nth-child(odd) {
-	background: white;
+
+.row:nth-child(odd) .cell:nth-child(even),
+.row:nth-child(even) .cell:nth-child(odd) {
+  background: white;
 }
 
-/*.cell:nth-child(-2n+8),
-.cell:nth-child(8) ~ .cell:nth-child(-2n+15),
-.cell:nth-child(16) ~ .cell:nth-child(-2n+24),
-.cell:nth-child(24) ~ .cell:nth-child(-2n+31),
-.cell:nth-child(32) ~ .cell:nth-child(-2n+40),
-.cell:nth-child(40) ~ .cell:nth-child(-2n+47),
-.cell:nth-child(48) ~ .cell:nth-child(-2n+56),
-.cell:nth-child(56) ~ .cell:nth-child(-2n+63) {
-  background: #fff;
-}*/
-.item-red {
-  width: 50px;
-  height: 50px;
+.item-first-team {
+  width: 5vh;
+  height: 5vh;
+  border: 1vh solid #fff;
   border-radius: 50%;
   background: #ff2525;
   z-index: 2;
 }
-.item-blue {
-  width: 50px;
-  height: 50px;
+
+.item-second-team {
+  width: 5vh;
+  height: 5vh;
+  border: 1vh solid #fff;
   border-radius: 50%;
   background: #636eff;
   z-index: 2;
 }
 
+.item-first-team:nth-child(1) {
+  position: absolute;
+  top: calc(6.5% - 5vh);
+  left: calc(6.5% - 2.5vh);
+}
 
-.inside {
+.item-first-team:nth-child(2) {
   position: absolute;
-  top: calc(50% - 20px);
-  left: calc(50% - 20px);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #4e4e4e;
+  top: calc(6.5% - 2.5vh);
+  left: calc(31.5% - 2.5vh);
 }
-.item-red:nth-child(1) {
-  position: absolute;
-  top: calc(6.5% - 25px);
-  left:calc(6.5% - 25px);
 
-}
-.item-red:nth-child(2) {
+.item-first-team:nth-child(3) {
   position: absolute;
-  top: calc(6.5% - 25px);
-  left: calc(31.5% - 25px);
+  top: calc(6.5% - 2.5vh);
+  left: calc(56.5% - 2.5vh);
 }
-.item-red:nth-child(3) {
+
+.item-first-team:nth-child(4) {
   position: absolute;
-  top: calc(6.5% - 25px);
-  left: calc(56.5% - 25px);
+  top: calc(6.5% - 2.5vh);
+  left: calc(81.5% - 2.5vh);
 }
-.item-red:nth-child(4) {
+
+.item-first-team:nth-child(5) {
   position: absolute;
-  top: calc(6.5% - 25px);
-  left: calc(81.5% - 25px);
+  top: calc(19% - 2.5vh);
+  left: calc(19% - 2.5vh);
 }
-.item-red:nth-child(5) {
+
+.item-first-team:nth-child(6) {
   position: absolute;
-  top: calc(19% - 25px);
-  left: calc(19% - 25px);
+  top: calc(19% - 2.5vh);
+  left: calc(44% - 2.5vh);
 }
-.item-red:nth-child(6) {
+
+.item-first-team:nth-child(7) {
   position: absolute;
-  top: calc(19% - 25px);
-  left: calc(44% - 25px);
+  top: calc(19% - 2.5vh);
+  left: calc(69% - 2.5vh);
 }
-.item-red:nth-child(7) {
+
+.item-first-team:nth-child(8) {
   position: absolute;
-  top: calc(19% - 25px);
-  left: calc(69% - 25px);
+  top: calc(19% - 2.5vh);
+  left: calc(94% - 2.5vh);
 }
-.item-red:nth-child(8) {
+
+.item-first-team:nth-child(9) {
   position: absolute;
-  top: calc(19% - 25px);
-  left: calc(94% - 25px);
+  top: calc(31.5% - 2.5vh);
+  left: calc(6.5% - 2.5vh);
 }
-.item-red:nth-child(9) {
+
+.item-first-team:nth-child(10) {
   position: absolute;
-  top: calc(31.5% - 25px);
-  left: calc(6.5% - 25px);
+  top: calc(31.5% - 2.5vh);
+  left: calc(31.5% - 2.5vh);
 }
-.item-red:nth-child(10) {
+
+.item-first-team:nth-child(11) {
   position: absolute;
-  top: calc(31.5% - 25px);
-  left: calc(31.5% - 25px);
+  top: calc(31.5% - 2.5vh);
+  left: calc(56.5% - 2.5vh);
 }
-.item-red:nth-child(11) {
+
+.item-first-team:nth-child(12) {
   position: absolute;
-  top: calc(31.5% - 25px);
-  left: calc(56.5% - 25px);
+  top: calc(31.5% - 2.5vh);
+  left: calc(81.5% - 2.5vh);
 }
-.item-red:nth-child(12) {
+
+.item-second-team:nth-child(1) {
   position: absolute;
-  top: calc(31.5% - 25px);
-  left: calc(81.5% - 25px);
+  bottom: calc(31.5% - 2.5vh);
+  left: calc(19% - 2.5vh);
 }
-.item-blue:nth-child(1) {
+
+.item-second-team:nth-child(2) {
   position: absolute;
-  bottom: calc(31.5% - 25px);
-  left: calc(19% - 25px);
+  bottom: calc(31.5% - 2.5vh);
+  left: calc(44% - 2.5vh);
 }
-.item-blue:nth-child(2) {
+
+.item-second-team:nth-child(3) {
   position: absolute;
-  bottom: calc(31.5% - 25px);
-  left: calc(44% - 25px);
+  bottom: calc(31.5% - 2.5vh);
+  left: calc(69% - 2.5vh);
 }
-.item-blue:nth-child(3) {
+
+.item-second-team:nth-child(4) {
   position: absolute;
-  bottom: calc(31.5% - 25px);
-  left: calc(69% - 25px);
+  bottom: calc(31.5% - 2.5vh);
+  left: calc(94% - 2.5vh);
 }
-.item-blue:nth-child(4) {
+
+.item-second-team:nth-child(5) {
   position: absolute;
-  bottom: calc(31.5% - 25px);
-  left: calc(94% - 25px);
+  bottom: calc(19% - 2.5vh);
+  left: calc(6.5% - 2.5vh);
 }
-.item-blue:nth-child(5) {
+
+.item-second-team:nth-child(6) {
   position: absolute;
-  bottom: calc(19% - 25px);
-  left: calc(6.5% - 25px);
+  bottom: calc(19% - 2.5vh);
+  left: calc(31.5% - 2.5vh);
 }
-.item-blue:nth-child(6) {
+
+.item-second-team:nth-child(7) {
   position: absolute;
-  bottom: calc(19% - 25px);
-  left: calc(31.5% - 25px);
+  bottom: calc(19% - 2.5vh);
+  left: calc(56.5% - 2.5vh);
 }
-.item-blue:nth-child(7) {
+
+.item-second-team:nth-child(8) {
   position: absolute;
-  bottom: calc(19% - 25px);
-  left: calc(56.5% - 25px);
+  bottom: calc(19% - 2.5vh);
+  left: calc(81.5% - 2.5vh);
 }
-.item-blue:nth-child(8) {
+
+.item-second-team:nth-child(9) {
   position: absolute;
-  bottom: calc(19% - 25px);
-  left: calc(81.5% - 25px);
+  bottom: calc(6.5% - 2.5vh);
+  left: calc(19% - 2.5vh);
 }
-.item-blue:nth-child(9) {
+
+.item-second-team:nth-child(10) {
   position: absolute;
-  bottom: calc(6.5% - 25px);
-  left: calc(19% - 25px);
+  bottom: calc(6.5% - 2.5vh);
+  left: calc(44% - 2.5vh);
 }
-.item-blue:nth-child(10) {
+
+.item-second-team:nth-child(11) {
   position: absolute;
-  bottom: calc(6.5% - 25px);
-  left: calc(44% - 25px);
+  bottom: calc(6.5% - 2.5vh);
+  left: calc(69% - 2.5vh);
 }
-.item-blue:nth-child(11) {
+
+.item-second-team:nth-child(12) {
   position: absolute;
-  bottom: calc(6.5% - 25px);
-  left: calc(69% - 25px);
+  bottom: calc(6.5% - 2.5vh);
+  left: calc(94% - 2.5vh);
 }
-.item-blue:nth-child(12) {
-  position: absolute;
-  bottom: calc(6.5% - 25px);
-  left: calc(94% - 25px);
