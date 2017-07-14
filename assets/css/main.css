@@ -64,7 +64,7 @@ body {
 
 .item-first-team:nth-child(1) {
   position: absolute;
-  top: calc(6.5% - 5vh);
+  top: calc(6.5% - 2.5vh);
   left: calc(6.5% - 2.5vh);
 }
 
