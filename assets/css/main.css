@@ -54,7 +54,6 @@ height: 100vmin;
 .item-first-team {
   width: 5%;
   height: 5%;
-  border: 1vh solid #fff;
   border-radius: 50%;
   background: #ff2525;
   z-index: 2;
@@ -63,10 +62,21 @@ height: 100vmin;
 .item-second-team {
   width: 5%;
   height: 5%;
-  border: 1vh solid #fff;
   border-radius: 50%;
   background: #636eff;
   z-index: 2;
+}
+.inside-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
 }
 
 .item-first-team:nth-child(1) {
